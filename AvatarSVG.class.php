@@ -34,7 +34,7 @@ class AvatarSVG {
 	}
 	function save($fileName){
 		if(!(file_exists($fileName))){
-			file_put_contents($fileName, $this->file)
+			file_put_contents($fileName, $this->file);
 			return true;
 		}
 		else {
