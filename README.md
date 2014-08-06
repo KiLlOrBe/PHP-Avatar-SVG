@@ -9,7 +9,7 @@ $avatar = new AvatarSVG($width, $height, $seed);
 ```
 * $width: The width in pixel of the image
 * $height: The height in pixel of the image
-* $seed: The seed of generation of the image, if the parameter is not specified the image will be generated randomly.
+* $seed: The seed of generation of the image, if the parameter is not specified the image will be randomly generated.
 
 ```php
 $avatar->read();
